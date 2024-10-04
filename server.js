@@ -21,7 +21,7 @@ cloudinary.v2.config({
 })
 
 app.use(cors({
-    origin:[process.env.FRONTEND_URL],
+    origin:'https://hospital-management-system-0099.netlify.app',
     methods:["GET","POST","PUT","DELETE"],
     credentials:true
 }))
